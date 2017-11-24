@@ -1,0 +1,50 @@
+/**index.wxss**/
+page{
+   background: url('https://mmbiz.qpic.cn/mmbiz_png/PWLmhkicnSZQs0Kf9ePYlL84Ja3du5UIeZXiaTrOSr0v3g0pUK0PHXKL0ENSxlwBoy3yTv7Jyic6NCok32UgFByGw/0?wx_fmt=png') no-repeat;  
+  background-size:100% 100%;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom:40rpx;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #179fff;
+}
+.userinfo button{
+  background: #179fff;
+}
+.usermotto {
+   margin-top: 30rpx; 
+  color: #179fff;
+}
+/* pages/about/about.wxss */
+/*about的样式  */
+
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 30rpx;
+  box-sizing: border-box;
+} 
+.usermotto{
+  width:100%;
+  text-align: center;
+  height:80rpx;
+  line-height: 80rpx;
+      background: url('https://mmbiz.qpic.cn/mmbiz_png/PWLmhkicnSZQs0Kf9ePYlL84Ja3du5UIenkJWCBq3tMn1Sm5e0YIURPCq4eBYHl9qbH31CELd7z9SNB6TonicEeg/0?wx_fmt=png');
+  background-size: 100% 100%;
+}

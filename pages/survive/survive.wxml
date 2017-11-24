@@ -1,0 +1,28 @@
+<view class='header'>
+	<view class="headertop">
+		 <view class="logo">
+		   	 <image src='../../images/logo.png' class='logopic'></image>
+		 </view>
+		<text>微信小程序</text>
+	</view>
+	 <view class="headerbottom">
+		<text class="seotitle">成功案例</text>
+		<view class="seosubtitle">
+			<image src="./../../images/hbleft.png"></image>
+			<text>ROI就是我们的使命</text>
+			<image src="./../../images/hbright.png"></image>
+		</view>
+	 </view>
+</view>
+<view class="anli">
+  <view><image src="./../../images/111.jpg"></image></view>
+  <view><image src="./../../images/222.jpg"></image></view>
+  <view><image src="./../../images/333.jpg"></image></view>
+  <view><image src="./../../images/444.jpg"></image></view>
+  
+  
+  <!-- <view><image src="./../../images/333.jpg"></image></view>
+  <view><image src="./../../images/444.jpg"></image></view> -->
+
+
+</view> 

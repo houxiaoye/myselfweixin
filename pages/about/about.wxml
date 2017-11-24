@@ -1,0 +1,40 @@
+<view class="container" bindtap="click">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+    <!-- <contact-button 
+  type="default-light" 
+  size="20"
+  session-from="weapp"
+>
+</contact-button> -->
+  </view>
+  <view class="usermotto"  wx:if="{{!info2text}}">
+    <!-- <text class="user-motto">{{motto}}</text> -->
+     <view class='aboutus' catchtap="aboutus">关于我们</view> 
+     <!-- <block wx:if="{{infotext}}"> -->
+        <view  wx:if="{{infotext}}">
+        针对行业痛点提供解决方案
+        沉淀搜索引擎大数据海量词库
+        通过人工智能简化复杂流程
+        降低企业投放成本
+        以更低的价格获得更多的点击和更高的排名
+        </view>
+     <!-- </block> -->
+  </view>
+    <view class="usermotto"  wx:if="{{!infotext}}"  catchtap="learnus">
+    <!-- <text class="user-motto">{{motto}}</text> -->
+     <view class='aboutus'>了解更多</view> 
+        <view  wx:if="{{info2text}}">
+        针对行业痛点提供解决方案
+        沉淀搜索引擎大数据海量词库
+        通过人工智能简化复杂流程
+        降低企业投放成本
+        以更低的价格获得更多的点击和更高的排名
+        </view>
+  </view>  
+
+</view>

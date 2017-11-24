@@ -1,0 +1,99 @@
+/* page{
+  height:100%;
+  width:100%;
+  background: url('https://mmbiz.qpic.cn/mmbiz_png/PWLmhkicnSZQs0Kf9ePYlL84Ja3du5UIeZXiaTrOSr0v3g0pUK0PHXKL0ENSxlwBoy3yTv7Jyic6NCok32UgFByGw/0?wx_fmt=png') no-repeat;  
+  background-size:100% 100%;
+  color: #179fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+page{
+  /* height: 100%; */
+  background: url('https://mmbiz.qpic.cn/mmbiz_png/PWLmhkicnSZQs0Kf9ePYlL84Ja3du5UIeZXiaTrOSr0v3g0pUK0PHXKL0ENSxlwBoy3yTv7Jyic6NCok32UgFByGw/0?wx_fmt=png') no-repeat;  
+  background-size:100% 100%;
+}
+.header{
+      padding:0 30rpx;  
+      background: url('https://mmbiz.qpic.cn/mmbiz_png/PWLmhkicnSZQs0Kf9ePYlL84Ja3du5UIeaibm10bs0SOSf8alpQxPFwQziahP34sCmqfpNytFtLvibeuoapchhxhgA/0?wx_fmt=png') no-repeat;
+      background-size:100% 100%;
+}
+.header .logo{
+  margin:20rpx 30rpx 0 0;
+  width: 84rpx;
+  height: 84rpx;
+  background: url('https://mmbiz.qpic.cn/mmbiz_png/PWLmhkicnSZQs0Kf9ePYlL84Ja3du5UIe2bmibEAvqQBAQRruibPoIXkRXAFS2LYjTrODGhjJxkncEjHMCJzpTLaw/0?wx_fmt=png') no-repeat;
+  background-size:100% 100%;
+}
+.header .headertop {
+  display: flex;
+}
+.header .headertop text{
+    flex: 1;
+    margin-top: 40rpx;
+    color: #179fff;
+}
+.header .logopic{
+  width:68rpx;
+  height: 68rpx;
+  margin:8rpx;
+}
+.header .headerbottom{
+  margin-top: 16rpx;
+  padding-top: 80rpx;
+  border-top:1rpx solid #1a407f;
+  font-size: 48rpx;
+  font-weight: 600;
+  color: #179fff;
+  text-align: center;
+}
+.seosubtitle{
+  display: flex;
+  justify-content: center;
+  font-size: 32rpx;
+  text-align: center;
+  /*padding-left: 59rpx;*/
+  margin-top: 34rpx;
+  padding-bottom: 75rpx;
+  align-items: center;
+}
+.seotitle text{
+  display: inline-block;
+  width: 227rpx;
+  height: 70rpx;
+  margin-left: 5rpx;
+  font-style:oblique;
+background: url('https://mmbiz.qpic.cn/mmbiz_png/PWLmhkicnSZQxLicyAEUUwdiacbXmf2nEDga4t8Oo97U6ODZknEpWWCIENUW8Hf5LqCyqypbyHVE80XUesxmFXMDQ/0?wx_fmt=png');
+background-size: 100% 100%;
+}
+.seosubtitle text{
+  margin-top: 8rpx;
+}
+.seosubtitle image{
+  width: 132rpx;
+  height: 6rpx;
+  margin-top: 10rpx;
+}
+.seosubtitle image:first-child{
+  margin-right: 16rpx;
+}
+.seosubtitle image:last-child{
+  margin-left: 16rpx;
+}
+.anli{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  background: url('https://mmbiz.qpic.cn/mmbiz_png/PWLmhkicnSZQs0Kf9ePYlL84Ja3du5UIeZXiaTrOSr0v3g0pUK0PHXKL0ENSxlwBoy3yTv7Jyic6NCok32UgFByGw/0?wx_fmt=png') no-repeat; 
+background-size: 100% 100%;
+}
+.anli image{
+  width:500rpx;
+  height: 400rpx;
+}
+/* 
+.slanmedia{
+  background:#179fff;
+  width:100%;
+  height:100%;
+} */

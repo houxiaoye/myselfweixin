@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/about/about",    
+    "pages/survive/survive",
+    "pages/seo/seo",    
+    "pages/sem/sem",
+    "pages/index/index"
+  ],
+    "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#333",
+    "navigationBarTitleText": "Slan",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+     "borderStyle": "#179fff" ,
+     "selectedColor": "#179fff",
+     "color": "#a9b7b7",  
+     "backgroundColor": "#170f44",
+    "list": [{
+      "pagePath": "pages/seo/seo",
+      "text": "index",
+      "iconPath" :  "./images/bt11.png",
+      "selectedIconPath": "./images/bt3.png"
+    },
+    {
+      "pagePath": "pages/survive/survive",
+      "text": "survive",
+      "iconPath" :  "./images/dt22.png",
+      "selectedIconPath": "./images/dt2.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "about",
+      "iconPath": "./images/bt33.png",
+      "selectedIconPath": "./images/bt1.png"
+    }]
+  }
+
+}
